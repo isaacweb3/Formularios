@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgba(24, 15, 26, 0.235);
+    background-image: url(https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product_1258-53569.jpg?w=740&t=st=1727793395~exp=1727793995~hmac=2794b3c15d6fa66e44dc999f7f04a324a32c10a500118f83d1607b59479c29dc);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    background-color: rgb(245, 245, 245);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgb(132, 1, 255);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+textarea{
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100% - 25px);
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #3fb73f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="checkbox"]
+
+button:hover {
+    background-color: green;
+}
+
+.small-input {
+    width: auto;
+    display: inline-block;
+}
+
+.inline-label {
+    display: inline-block;
+    margin-right: 10px;
+}
